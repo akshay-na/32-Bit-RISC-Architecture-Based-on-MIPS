@@ -1,0 +1,32 @@
+Op_Codes:
+	//R-Type == 6'd0;
+
+	//I-Type
+	"beq" 	= 6'd4
+	"addi"	= 6'd8
+	"andi"  = 6'd12
+	"ori"	= 6'd13
+	"slti"	= 6'd10
+	"lw"	= 6'd35
+	"sw"	= 6'd43
+	"xori"	= 6'd14
+	"nop"	= 6'd0
+
+
+
+Fucnt:
+				ADD     = 6'd0,
+                SUB     = 6'd1,
+                MUL     = 6'd2,
+                DIV     = 6'd3,
+                SLL     = 6'd4,
+                SRL     = 6'd5,
+                AND     = 6'd6,
+                OR      = 6'd7,
+                XOR     = 6'd8,
+                SLT     = 6'd9,
+
+                ADDF    = 6'd10,
+                SUBF    = 6'd11,
+                MULF    = 6'd12,
+                DIVF    = 6'd13;
